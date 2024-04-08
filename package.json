@@ -1,0 +1,25 @@
+{
+  "name": "robot-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.12.0",
+    "parcel": "^2.12.0",
+    "typescript": "^5.4.4"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubaua/robot-cleaner.git"
+  },
+  "author": "dubaua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubaua/robot-cleaner/issues"
+  },
+  "homepage": "https://github.com/dubaua/robot-cleaner#readme"
+}
